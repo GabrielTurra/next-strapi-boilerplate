@@ -1,7 +1,9 @@
+import * as S from './main.styles';
+
 const Main = () => (
-  <main>
+  <S.Wrapper>
     <h1>Test React Jest</h1>
-  </main>
+  </S.Wrapper>
 );
 
 export default Main;

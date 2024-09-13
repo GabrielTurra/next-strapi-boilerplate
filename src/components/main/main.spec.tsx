@@ -6,7 +6,7 @@ describe('<Main />', () => {
     render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: /wrqgqtqerthg/i })
+      screen.getByRole('heading', { name: /Test React Jest/i })
     ).toBeInTheDocument();
   });
 });
