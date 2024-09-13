@@ -20,14 +20,15 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "target": "ES2017"
+    "target": "ES2017",
+    "types": ["vitest/globals"]
   },
   "include": [
-    ".jest/setup.ts",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "vitest-setup.js"
   ],
   "exclude": ["node_modules"]
 }
