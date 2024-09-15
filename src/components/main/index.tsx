@@ -1,8 +1,14 @@
 import * as S from './main.styles';
 
-const Main = () => (
+interface MainProps {
+  title: string;
+  description: string;
+}
+
+const Main = ({ title, description }: MainProps) => (
   <S.Wrapper>
-    <h1>Test React Jest</h1>
+    <h1>{title}</h1>
+    <p>{description}</p>
   </S.Wrapper>
 );
 
