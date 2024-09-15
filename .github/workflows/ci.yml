@@ -22,7 +22,7 @@ jobs:
         with:
           version: latest
 
-      - name: Run Biome Linting
+      - name: Linting
         run: biome ci .
 
       - name: Testing
